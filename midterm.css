@@ -1,0 +1,73 @@
+body,
+html {
+    margin:0;
+	padding:0;
+	color:#000;
+	background-color:rgb(100,0,125);
+}
+
+#wrap {
+	margin:0 auto;
+	background:#99c;
+}
+
+#header {
+    padding:5px 10px;
+    background:#ddd;
+	text-align:center;
+}
+
+h1 {
+    margin:0;
+}
+
+#nav {
+    padding:5px 10px;
+    background:#c99;
+	text-align:center;
+}
+
+#nav ul {
+    margin:0;
+	padding:0;
+	list-style:none;
+}
+
+#nav li {
+    display:inline;
+	margin:0;
+	padding:25px;
+}
+
+#main {
+    float:left;
+	padding:25px;
+    background:#9c9;
+}
+
+#sidebar {
+    float:right;
+	padding:25px;
+    background:#c9c;
+}
+
+#footer {
+    clear:both;
+	padding:10px 20px;
+    background:#cc9;
+	text-align:center;
+}
+
+#footer p {
+    margin:0;
+}
+
+@media (max-width: 400px) { 
+        body {
+          font-size: 20px;
+        }
+
+        .hidden-phone {
+           display: block;
+        }
+    }
