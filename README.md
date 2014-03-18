@@ -10,3 +10,10 @@ contents of the link. Meanwhile, a Spotify widget
 on the top of the page will fulfill the users music
 needs in the same tab (so the lazy do not have to 
 switch between tabs will browsing reddit).
+
+
+Spotify must be downloaded onto the system for the 
+widget to work properly. Otherwise it will show up
+on the page but will not play.
+
+
