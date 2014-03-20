@@ -17,7 +17,6 @@
 	    <iframe src="https://embed.spotify.com/?uri=spotify:album:22nQdZSid64plYdy5zRHew" width="400" height="200" frameborder="0" allowtransparency="true"></iframe></div>
 	<div id="main">
 	    <h1>Reddit Topics</h1>
-            <form method="get" action="cgi-bin/access.py">
             <div id="topic1">
                 <h3>topic 1 example</h3>
             </div>
@@ -48,7 +47,6 @@
             <div id="topic10">
                 <h3>topic 10 example</h3>
             </div>
-            </form>
         </div>
 	<div id="sidebar">
 	    <iframe id="linked_page" width="98%" src="http://fr.wikipedia.org/wiki/Fichier:Reddit-alien.png" ></iframe></div>
