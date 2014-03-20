@@ -2,6 +2,7 @@ populate = function() {
     for (var i=1; i < 11; i++) {
         var cell = document.getElementById("topic"+i.toString());
         cell.innerHTML = i;
+        jQuery.get("cgi-bin/access.py");
         $.getJSON('http://www.reddit.com/', function(data) {
             var parsed = JSON.parse(data);
             alert(json["title"]);

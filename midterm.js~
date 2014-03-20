@@ -2,6 +2,10 @@ populate = function() {
     for (var i=1; i < 11; i++) {
         var cell = document.getElementById("topic"+i.toString());
         cell.innerHTML = i;
+        $.getJSON('http://www.reddit.com/', function(data) {
+            var parsed = JSON.parse(data);
+            alert(json["title"]);
+        });
     }
     //var newh1 = document.createElement('h1')
     //newh1.innerHTML = 'Hello World!'
