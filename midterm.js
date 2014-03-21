@@ -1,12 +1,20 @@
 populate = function() {
+    $.ajax({
+       url: "http://www.reddit.com/r/all/.json?jsonp=?",
+       dataType: 'jsonp',
+       success: function(data) { alert("json loaded successfully.")}
+    });
+
     for (var i=1; i < 11; i++) {
         var cell = document.getElementById("topic"+i.toString());
         cell.innerHTML = i;
-        jQuery.get("cgi-bin/access.py");
-        $.getJSON('http://www.reddit.com/', function(data) {
-            var parsed = JSON.parse(data);
-            alert(json["title"]);
-        });
+        //jQuery.get("cgi-bin/access.py");
+        
+
+           //$.getJSON('http://www.reddit.com/', function(data) {
+               //var parsed = JSON.parse(data);
+               //alert(json["title"]);
+           //});
     }
     //var newh1 = document.createElement('h1')
     //newh1.innerHTML = 'Hello World!'
