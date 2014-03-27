@@ -2,7 +2,7 @@ populate = function() {
     $.ajax({
        url: "http://www.reddit.com/r/all/.json?jsonp=?",
        dataType: 'jsonp',
-       success: function(data) { alert("json loaded successfully.")}
+       success: function(data) { alert(data)}
     });
 
     for (var i=1; i < 11; i++) {

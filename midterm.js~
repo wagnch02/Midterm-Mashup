@@ -1,6 +1,6 @@
 populate = function() {
     $.ajax({
-       url: "http://reddit.com",
+       url: "http://www.reddit.com/r/all/.json?jsonp=?",
        dataType: 'jsonp',
        success: function(data) { alert("json loaded successfully.")}
     });
