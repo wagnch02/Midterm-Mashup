@@ -2,6 +2,7 @@ body,
 html {
     margin:0;
 	padding:0;
+	padding-bottom:40px;
 	color:#000;
 	background-color:rgb(100,0,125);
 }
@@ -23,7 +24,7 @@ h1 {
 
 #nav {
     padding:5px 10px;
-    background:#c99;
+    background:#7cb621;
 	text-align:center;
 }
 
@@ -41,26 +42,57 @@ h1 {
 
 #main {
     float:left;
-	padding:25px;
-    background:#9c9;
+    border:5px;
+    border-color:rgb(64,64,64);
+    border-style:solid;
+    padding:20px;
+    background:rgb(9,9,9);
+    /*height:950px;*/
+    width:600px;
+    color: white;
 }
 
 #sidebar {
     float:right;
-	padding:25px;
-    background:#c9c;
+    width:600px;
+    height:729px;
+	border:5px;
+    border-color:rgba(255,222,0,.7);
+    border-style:solid;
+    padding:20px;
+    background:#c60;
+}
+#linked_page {
+    /*height:900px;*/
+    /*width:550px;*/
 }
 
 #footer {
     clear:both;
-	padding:10px 20px;
-    background:#cc9;
-	text-align:center;
+    padding:10px 20px;
+    position:fixed;
+    bottom:0;
+    right:600;
+    background:#ff6;
+    text-align:center;
 }
 
 #footer p {
     margin:0;
 }
+.rd_topic {
+    text-align: left;
+    font-size: 32px;
+    background: rgba(51,204,255,.5);
+    border: 3px;
+    border-color: rgb(64,64,64);
+    border-style: solid;
+    /*padding-bottom: 15px;*/
+    margin: 10px;
+    
+}
+    
+  
 
 @media (max-width: 400px) { 
         body {
